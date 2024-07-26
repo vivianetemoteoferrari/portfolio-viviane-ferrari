@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 /*
@@ -6,17 +5,87 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,8 +94,17 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -34,14 +112,18 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -65,7 +147,9 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -76,7 +160,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -88,12 +174,16 @@ body {
   line-height: 1.75em;
   color: #888;
 }
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
   animation: none !important;
   transition: none !important;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 19pt;
   font-weight: 300;
@@ -101,17 +191,32 @@ input, textarea, select {
   color: #888;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
   color: #666;
   line-height: 1.5em;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
   text-decoration: none;
 }
-h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+h1 a strong,
+h2 a strong,
+h3 a strong,
+h4 a strong,
+h5 a strong,
+h6 a strong {
   color: #333;
 }
 
@@ -121,6 +226,7 @@ h2 {
 }
 h2.alt {
   color: #888;
+  padding-top: 200px;
 }
 h2.alt strong {
   color: #666;
@@ -141,24 +247,26 @@ footer {
   margin: 2em 0 0 0;
 }
 
-strong, b {
+strong,
+b {
   font-weight: 300;
   color: #666;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+  font-weight: 400;
   transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   outline: 0;
 }
 a:hover {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 0, 0, 0);
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 
@@ -185,7 +293,11 @@ blockquote {
   font-style: italic;
 }
 
-p, ul, ol, dl, table {
+p,
+ul,
+ol,
+dl,
+table {
   margin-bottom: 2em;
 }
 
@@ -1336,15 +1448,19 @@ br.clear {
 }
 
 /* Sections/Article */
-section, article {
+section,
+article {
   margin-bottom: 3em;
 }
 section > :last-child,
-section > .container, section:last-child, article > :last-child,
-article > .container, article:last-child {
+section > .container, section:last-child,
+article > :last-child,
+article > .container,
+article:last-child {
   margin-bottom: 0;
 }
-.row > section, .row > article {
+.row > section,
+.row > article {
   margin-bottom: 0;
 }
 
@@ -1363,7 +1479,7 @@ article > .container, article:last-child {
 .image.avatar48 {
   width: 48px;
   height: 48px;
-  background: #f00;
+  background: #212528;
 }
 .image.avatar48 img {
   width: 48px;
@@ -1529,10 +1645,9 @@ button,
   color: #fff !important;
   text-decoration: none;
   padding: 0.75em 2.5em 0.75em 2.5em;
-  background-color: #e27689;
+  background-color: #947EB5;
   border: 0;
   cursor: pointer;
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
   transition: background-color 0.35s ease-in-out;
 }
 input[type=button]:hover,
@@ -1540,14 +1655,14 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 button:hover,
 .button:hover {
-  background-color: #842839;
+  background-color: #39006E;
 }
 input[type=button]:active,
 input[type=submit]:active,
 input[type=reset]:active,
 button:active,
 .button:active {
-  background-color: #d3052b;
+  background-color: #060057;
 }
 
 /* Item */
@@ -1704,85 +1819,139 @@ button:active,
   color: #fff;
 }
 #nav ul li a.active span:before {
-  color: #e27689;
+  color: #947EB5;
 }
 
-/*@keyframes wave-animation {
-	0% {
-		transform: translateX(0);
-	}
-	100% {
-		transform: translateX(-100%);
-	}
+#top {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background: linear-gradient(0, #10006d, #0e0e0e);
 }
 
-.animated-background {
-	position: relative;
-	overflow: hidden;
-	background-color: #001220;
-	height: 100vh; // Altura completa da viewport
-
-	&::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 200%; // Duas vezes a largura da viewport para permitir a animação
-		height: 100%;
-		background-image: url('../svg/new-bg-waves.svg');
-		background-size: cover;
-		animation: wave-animation 90s linear infinite;
-	}
-
-	header {
-		z-index: 1;
-		position: relative;
-		color: white;
-		text-align: center;
-		padding-top: 15%;
-	}
-
-	footer {
-		z-index: 1;
-		position: relative;
-		text-align: center;
-		padding-top: 20px;
-
-		.svg {
-			width: 44px;
-			height: 44px;
-			color: white;
-			cursor: pointer;
-			animation: bounce 2s infinite;
-		}
-	}
+.stars {
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: -5px 40px white, -20px -100px white, -30px -10px white, -60px -15px white, 0px 200px white, 120px 100px white, 170px 200px white, 290px 50px white, 420px 250px white, 570px 100px white, 690px 400px white, 820px 180px white, 970px -50px white, 1120px 250px white, 70px 400px white, 220px 30px white, 470px -300px white, 620px 200px white, 870px 400px white, 1090px 50px white, 270px 700px white, 370px 350px white, 470px 200px white, 570px -50px white, 720px 300px white, 820px -150px white, 920px 200px white, 1020px 300px white, 1170px 100px white, 1270px 300px white, 1370px 150px white, 1470px 200px white, 1570px 100px white, 1670px 250px white, 1770px 150px white, 470px 800px white, 770px 550px white, 970px 450px white, 1170px 500px white, 1390px 800px white, 170px 50px white, 320px 250px white, 420px 100px white, 520px 50px white, 670px 400px white, 820px 100px white, 970px 250px white, 1170px 300px white, 1390px 400px white, 1470px 300px white;
+  animation: anim-stars 10s linear infinite;
 }
 
-@keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {
-		transform: translateY(0);
-	}
-	40% {
-		transform: translateY(-10px);
-	}
-	60% {
-		transform: translateY(-5px);
-	}
-}*/
-/* teste header wave
-@keyframes animatedBackground {
-from { background-position: 0px 0; }
-to { background-position: -1000px 0; }
- }
- #top {
-height: 100%;
-width:100%;
-background-image: url('https://archive.org/download/clouds-tiled/clouds-tiled.png');
-background-repeat: repeat-x;
-animation: animatedBackground 2s linear infinite;
-line-height: 400px;
+.stars::after {
+  content: " ";
+  position: absolute;
+  top: 650px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: -5px 40px white, -20px -100px white, -30px -10px white, -60px -15px white, 0px 200px white, 120px 100px white, 170px 200px white, 290px 50px white, 420px 250px white, 570px 100px white, 690px 400px white, 820px 180px white, 970px -50px white, 1120px 250px white, 70px 400px white, 220px 30px white, 470px -300px white, 620px 200px white, 870px 400px white, 1090px 50px white, 270px 700px white, 370px 350px white, 470px 200px white, 570px -50px white, 720px 300px white, 820px -150px white, 920px 200px white, 1020px 300px white, 1170px 100px white, 1270px 300px white, 1370px 150px white, 1470px 200px white, 1570px 100px white, 1670px 250px white, 1770px 150px white, 470px 800px white, 770px 550px white, 970px 450px white, 1170px 500px white, 1390px 800px white, 170px 50px white, 320px 250px white, 420px 100px white, 520px 50px white, 670px 400px white, 820px 100px white, 970px 250px white, 1170px 300px white, 1390px 400px white, 1470px 300px white;
+}
 
- }*/
+.stars2 {
+  position: relative;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: -5px 30px white, -50px 40px white, -20px 100px white, -60px -20px white, -120px -20px white, 60px 120px white, 130px 60px white, 200px 180px white, 280px 120px white, 370px 90px white, 490px 150px white, 610px 80px white, 720px 200px white, 860px 120px white, 20px 50px white, 70px 70px white, 170px 150px white, 270px 800px white, 370px 200px white, 520px 120px white, 670px 30px white, 770px 170px white, 920px 200px white, 970px 150px white, 1070px 50px white, 1170px 820px white, 1270px 200px white, 1370px 100px white, 1470px 200px white, 1570px 150px white, 1670px 50px white, 1770px 200px white, 220px 500px white, 320px 450px white, 420px 850px white, 520px 300px white, 620px 400px white, 720px 200px white, 820px 500px white, 920px 100px white, 1070px 300px white, 1220px 200px white, 1420px 150px white, 1520px 800px white, 1620px 350px white;
+  animation: anim-stars 20s linear infinite;
+}
+
+.stars2::after {
+  content: " ";
+  position: absolute;
+  top: 650px;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: -5px 30px white, -50px 40px white, -20px 100px white, -60px -20px white, -120px -20px white, 60px 120px white, 130px 60px white, 200px 180px white, 280px 120px white, 370px 90px white, 490px 150px white, 610px 80px white, 720px 200px white, 860px 120px white, 20px 50px white, 70px 70px white, 170px 150px white, 270px 800px white, 370px 200px white, 520px 120px white, 670px 30px white, 770px 170px white, 920px 200px white, 970px 150px white, 1070px 50px white, 1170px 820px white, 1270px 200px white, 1370px 100px white, 1470px 200px white, 1570px 150px white, 1670px 50px white, 1770px 200px white, 220px 500px white, 320px 450px white, 420px 850px white, 520px 300px white, 620px 400px white, 720px 200px white, 820px 500px white, 920px 100px white, 1070px 300px white, 1220px 200px white, 1420px 150px white, 1520px 800px white, 1620px 350px white;
+}
+
+@keyframes anim-stars {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-650px);
+  }
+}
+/*typing animation*/
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid rgba(255, 166, 0, 0);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+}
+
+.typewriter-animation {
+  animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 166, 0, 0);
+  }
+}
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .typewriter {
+    font-size: 1em !important;
+    letter-spacing: 0.1em;
+    border-right: 0.1em solid rgba(255, 166, 0, 0);
+  }
+}
+@media (min-width: 601px) {
+  .typewriter {
+    font-size: 2.5em;
+    letter-spacing: 0.15em;
+    border-right: 0.15em solid rgba(255, 166, 0, 0);
+  }
+}
+.typewriter-animation {
+  font-weight: 500;
+  overflow: hidden;
+  border-right: 0.15em solid rgba(255, 166, 0, 0);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 6s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 166, 0, 0);
+  }
+}
 /* Footer */
 #footer {
   margin-left: 375px;
@@ -1816,7 +1985,7 @@ line-height: 400px;
 #main > section {
   margin: 0;
   overflow: hidden;
-  padding: 4em 0;
+  padding: 8em 0;
   box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
   text-align: center;
   background-image: url("images/overlay.png");
@@ -1825,7 +1994,11 @@ line-height: 400px;
   color: #ddd;
   color: rgba(255, 255, 255, 0.75);
 }
-#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+#main > section.dark h2,
+#main > section.dark h3,
+#main > section.dark h4,
+#main > section.dark h5,
+#main > section.dark h6 {
   color: inherit;
 }
 #main > section.dark strong {
@@ -1845,8 +2018,7 @@ line-height: 400px;
   background-position: center center;
 }
 #main > section.one {
-  background-color: #81918E;
-  background-image: url("../svg/new-bg-waves.svg");
+  background: linear-gradient(0, #0d0a40, #0e0e0e);
   background-size: cover;
 }
 #main > section.two {
@@ -1859,7 +2031,7 @@ line-height: 400px;
   background-color: #e8edec;
 }
 
-/* Animação para os artigos */
+/* article animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -1878,7 +2050,10 @@ line-height: 400px;
 /* Wide */
 @media screen and (min-width: 961px) and (max-width: 1880px) {
   /* Basic */
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 17pt;
   }
   /* Header */
@@ -1907,7 +2082,10 @@ line-height: 400px;
 /* Narrow */
 @media screen and (min-width: 961px) and (max-width: 1320px) {
   /* Basic */
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 16pt;
   }
   .container {
@@ -1983,10 +2161,14 @@ line-height: 400px;
 
 @media screen and (max-width: 960px) {
   /* Basic */
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 16pt;
   }
   header br {
@@ -2117,7 +2299,10 @@ line-height: 400px;
 /* Mobile */
 @media screen and (max-width: 736px) {
   /* Basic */
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 14pt;
   }
   h2 {
@@ -2138,7 +2323,7 @@ line-height: 400px;
     padding: 2em 0;
   }
   #main section.cover {
-    padding: 4em 0em;
+    padding: 8em 0em;
   }
   #main section.cover header {
     padding: 0 1em;
@@ -2154,4 +2339,13 @@ line-height: 400px;
   #footer .copyright li:first-child {
     margin-top: 0;
   }
+}
+#about {
+  margin-top: 2em;
+  background-color: white;
+  padding: 3em 0;
+}
+
+#about h3 {
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
