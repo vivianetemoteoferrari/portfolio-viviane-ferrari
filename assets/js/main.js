@@ -114,6 +114,52 @@
 					visibleClass: 'header-visible'
 				});	
 
+				document.addEventListener("DOMContentLoaded", function() {
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const typewriter = entry.target.querySelector('.typewriter');
+        typewriter.classList.remove('typewriter-animation');
+        // Trigger reflow to restart animation
+        void typewriter.offsetWidth;
+        typewriter.classList.add('typewriter-animation');
+      }
+    });
+  }, observerOptions);
+
+  const topSection = document.querySelector('#top');
+  observer.observe(topSection);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+	const observerOptions = {
+	  root: null,
+	  rootMargin: '0px',
+	  threshold: 0.1
+	};
+  
+	const observer = new IntersectionObserver((entries, observer) => {
+	  entries.forEach(entry => {
+		if (entry.isIntersecting) {
+		  const typewriter = entry.target.querySelector('.typewriter');
+		  typewriter.classList.remove('typewriter-animation');
+		  // Trigger reflow to restart animation
+		  void typewriter.offsetWidth;
+		  typewriter.classList.add('typewriter-animation');
+		}
+	  });
+	}, observerOptions);
+  
+	const topSection = document.querySelector('#top');
+	observer.observe(topSection);
+  });
+
 })(jQuery);
 
 
