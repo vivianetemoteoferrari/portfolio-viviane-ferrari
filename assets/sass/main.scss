@@ -616,6 +616,7 @@ button,
 	color: #fff !important;
 	text-decoration: none;
 	padding: 0.75em 2.5em 0.75em 2.5em;
+	margin: 10px;
 	background-color: #947EB5;
 	border: 0;
 	cursor: pointer;
@@ -674,6 +675,10 @@ button,
 			font-family: 'Font Awesome 5 Brands';
 		}
 	}
+}
+
+.flag {
+	width: 18px;
 }
 
 /* Header */
@@ -1643,3 +1648,45 @@ button,
 #about h3 {
 	font-weight: 400;
 }
+
+
+/*skills-list */
+
+        .skills-list {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap; 
+        }
+        
+        .skills-list li {
+            display: inline; 
+            margin-right: 10px; 
+        }
+        
+        .skills-list svg {
+            width: 54px;
+            height: 54px;
+            fill: currentColor;
+        }
+
+		.centralize-container {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            width: 100%; 
+            padding: 0 20px; 
+            box-sizing: border-box; 
+        }
+		@media (max-width: 768px) {
+            .centralize-content {
+                padding: 15px; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .centralize-content {
+                padding: 10px; 
+            }
+        }
