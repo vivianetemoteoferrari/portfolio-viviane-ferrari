@@ -1,3 +1,64 @@
+$("#brasil").click((event) => {
+	event.preventDefault();
+
+	$("#translate_contact_1").text("Gostaria de ouvir de você! Se você tem um projeto em mente, precisa de uma consultoria, sinta-se à vontade para entrar em contato.");
+	$("#translate_contact").text("Contato");
+	$("#translate_contact_2").text("Contato");
+	$("#translate_contact_3").text("Enviar E-mail");
+	$("#translate_contact_4").text("Enviar no WhatsApp");
+	$("#translate_about").text("Sobre Mim");
+	$("#translate_about_2").text("Sobre Mim");
+	$("#translate_about_3").text("Nos últimos dez anos, desenvolvi uma sólida carreira na criação e desenvolvimento de páginas da web, banners e templates de e-mail marketing, bem como uma ampla variedade de conteúdo digital e offline.");
+	$("#translate_about_4").text("Minha experiência profissional inclui projetos bem-sucedidos em criação de identidade visual, campanhas de marketing e design de interface de usuário. Com experiência em ferramentas como Adobe Creative Suite, Figma, Sketch e outras plataformas de design e prototipagem, posso criar soluções visuais que são esteticamente agradáveis ​​e funcionalmente eficazes.");
+	$("#translate_about_5").text("Habilidades");
+	$("#download_cv_english").hide();
+	$("#download_cv_portuguese").show();
+	$("#translate_portfolio").text("Portfólio");
+	$("#translate_portfolio_1").text("Portfólio");
+	$("#translate_portfolio_2").text("Meus Últimos Projetos");
+	$("#translate_portfolio_3").text("Desenvolvimento Web | DashNex");
+	$("#translate_portfolio_4").text("Desenvolvimento Web | Genial Investimentos");
+	$("#translate_portfolio_5").text("Estudo de Caso Spotify | Alura");
+	$("#translate_portfolio_6").text("Design Gráfico | Genial Investimentos");
+	$("#translate_portfolio_7").text("Desenvolvimento Web | DietBox");
+	$("#translate_portfolio_8").text("Desenvolvimento Web | Genial Investimentos");
+	$("#translate_portfolio_9").text("Template de E-mail Marketing | Genial Investimentos");
+	$("#translate_top").text("Intro");
+	$("#translate_top_1").text("Olá, eu sou Viviane"); 
+	$("#translate_top_2").text("Mais de 10 anos de experiência em Design Gráfico e Desenvolvimento Web");
+});
+
+$("#usa").click((event) => {
+	event.preventDefault();
+
+	$("#translate_contact_1").text("I would like to hear from you! Whether you have a project in mind, need a consultation, feel free to reach out.");
+	$("#translate_contact").text("Contact");
+	$("#translate_contact_2").text("Contact");
+	$("#translate_contact_3").text("Send Email");
+	$("#translate_contact_4").text("Send WhatsApp Message");
+	$("#translate_about").text("About Me");
+	$("#translate_about_2").text("About Me");
+	$("#translate_about_3").text("Over past ten years, I have developed a solid career in creating anddeveloping web pages, banners, and email marketing templates, as well as a wide range of digital and offline content.");
+	$("#translate_about_4").text("My professional background includes successful projects in visual identity creation, marketingcampaigns,and user interface design.With expertise in tools such as Adobe Creative Suite, Figma,Sketch, and other design and prototyping platforms allows me to create visualsolutions that are both aesthetically pleasing and functionally effective.");
+	$("#translate_about_5").text("Skills");
+	$("#download_cv_portuguese").hide();
+	$("#download_cv_english").show();
+	$("#translate_portfolio").text("Portfolio");
+	$("#translate_portfolio_1").text("Portfolio");
+	$("#translate_portfolio_2").text("My Latest Projects");
+	$("#translate_portfolio_3").text("Web Development | DashNex");
+	$("#translate_portfolio_4").text("Web Development | Genial Investimentos");
+	$("#translate_portfolio_5").text("Spotify Case Study | Alura");
+	$("#translate_portfolio_6").text("Graphic Design | Genial Investimentos");
+	$("#translate_portfolio_7").text("Web Development | DietBox");
+	$("#translate_portfolio_8").text("Web Development | Genial Investimentos");
+	$("#translate_portfolio_9").text("Email Marketing Template | Genial Investimentos");
+	$("#translate_top").text("Intro");
+	$("#translate_top_1").text("Hello, I'm Viviane");
+	$("#translate_top_2").text("Over 10 years of experience in Graphic Design and Web Development");
+});
+
+
 (function($) {
 
 	var	$window = $(window),
