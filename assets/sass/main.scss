@@ -810,14 +810,76 @@ button,
 	overflow: hidden;
 	background-size: cover;
 	background: linear-gradient(0, #10006d, #0e0e0e);
+	
 }
 
 .stars {
-	position: relative;
-	width: 3px;
-	height: 3px;
-	border-radius: 50%;
-	box-shadow: -5px 40px white,
+		position: relative;
+		width: 3px;
+		height: 3px;
+		border-radius: 50%;
+		box-shadow: -5px 40px white,
+			-20px -100px white,
+			-30px -10px white,
+			-60px -15px white,
+			0px 200px white,
+			120px 100px white,
+			170px 200px white,
+			290px 50px white,
+			420px 250px white,
+			570px 100px white,
+			690px 400px white,
+			820px 180px white,
+			970px -50px white,
+			1120px 250px white,
+			70px 400px white,
+			220px 30px white,
+			470px -300px white,
+			620px 200px white,
+			870px 400px white,
+			1090px 50px white,
+			270px 700px white,
+			370px 350px white,
+			470px 200px white,
+			570px -50px white,
+			720px 300px white,
+			820px -150px white,
+			920px 200px white,
+			1020px 300px white,
+			1170px 100px white,
+			1270px 300px white,
+			1370px 150px white,
+			1470px 200px white,
+			1570px 100px white,
+			1670px 250px white,
+			1770px 150px white,
+			470px 800px white,
+			770px 550px white,
+			970px 450px white,
+			1170px 500px white,
+			1390px 800px white,
+			170px 50px white,
+			320px 250px white,
+			420px 100px white,
+			520px 50px white,
+			670px 400px white,
+			820px 100px white,
+			970px 250px white,
+			1170px 300px white,
+			1390px 400px white,
+			1470px 300px white,
+			2510px 300px white;
+		animation: anim-stars 10s linear infinite;
+	}
+	
+	.stars::after {
+		content: " ";
+		position: absolute;
+		top: 650px;
+		width: 3px;
+		height: 3px;
+		border-radius: 50%;
+		box-shadow: -5px 40px white,
 		-20px -100px white,
 		-30px -10px white,
 		-60px -15px white,
@@ -867,74 +929,73 @@ button,
 		1170px 300px white,
 		1390px 400px white,
 		1470px 300px white;
-	animation: anim-stars 10s linear infinite;
-}
+		
+	}
+	
+	.stars2 {
+		position: relative;
+		justify-content: center;
+		align-items: center;
 
-.stars::after {
-	content: " ";
-	position: absolute;
-	top: 650px;
-	width: 3px;
-	height: 3px;
-	border-radius: 50%;
-	box-shadow: -5px 40px white,
-	-20px -100px white,
-	-30px -10px white,
-	-60px -15px white,
-	0px 200px white,
-	120px 100px white,
-	170px 200px white,
-	290px 50px white,
-	420px 250px white,
-	570px 100px white,
-	690px 400px white,
-	820px 180px white,
-	970px -50px white,
-	1120px 250px white,
-	70px 400px white,
-	220px 30px white,
-	470px -300px white,
-	620px 200px white,
-	870px 400px white,
-	1090px 50px white,
-	270px 700px white,
-	370px 350px white,
-	470px 200px white,
-	570px -50px white,
-	720px 300px white,
-	820px -150px white,
-	920px 200px white,
-	1020px 300px white,
-	1170px 100px white,
-	1270px 300px white,
-	1370px 150px white,
-	1470px 200px white,
-	1570px 100px white,
-	1670px 250px white,
-	1770px 150px white,
-	470px 800px white,
-	770px 550px white,
-	970px 450px white,
-	1170px 500px white,
-	1390px 800px white,
-	170px 50px white,
-	320px 250px white,
-	420px 100px white,
-	520px 50px white,
-	670px 400px white,
-	820px 100px white,
-	970px 250px white,
-	1170px 300px white,
-	1390px 400px white,
-	1470px 300px white;
-}
-
-.stars2 {
-	position: relative;
-	width: 1px;
-	height: 1px;
-	border-radius: 50%;
-	box-shadow: -5px 30px white,
+		width: 1px;
+		height: 1px;
+		border-radius: 50%;
+		box-shadow: -5px 30px white,
+			-50px 40px white,
+			-20px 100px white,
+			-60px -20px white,
+			-120px -20px white,
+			60px 120px white,
+			130px 60px white,
+			200px 180px white,
+			280px 120px white,
+			370px 90px white,
+			490px 150px white,
+			610px 80px white,
+			720px 200px white,
+			860px 120px white,
+			20px 50px white,
+			70px 70px white,
+			170px 150px white,
+			270px 800px white,
+			370px 200px white,
+			520px 120px white,
+			670px 30px white,
+			770px 170px white,
+			920px 200px white,
+			970px 150px white,
+			1070px 50px white,
+			1170px 820px white,
+			1270px 200px white,
+			1370px 100px white,
+			1470px 200px white,
+			1570px 150px white,
+			1670px 50px white,
+			1770px 200px white,
+			220px 500px white,
+			320px 450px white,
+			420px 850px white,
+			520px 300px white,
+			620px 400px white,
+			720px 200px white,
+			820px 500px white,
+			920px 100px white,
+			1070px 300px white,
+			1220px 200px white,
+			1420px 150px white,
+			1520px 800px white,
+			1620px 350px white;
+		animation: anim-stars 20s linear infinite;
+	}
+	
+	.stars2::after {
+		content: " ";
+		position: absolute;
+		top: 650px;
+		width: 1px;
+		height: 1px;
+		border-radius: 50%;
+		box-shadow: -5px 30px white,
 		-50px 40px white,
 		-20px 100px white,
 		-60px -20px white,
@@ -979,72 +1040,17 @@ button,
 		1420px 150px white,
 		1520px 800px white,
 		1620px 350px white;
-	animation: anim-stars 20s linear infinite;
-}
-
-.stars2::after {
-	content: " ";
-	position: absolute;
-	top: 650px;
-	width: 1px;
-	height: 1px;
-	border-radius: 50%;
-	box-shadow: -5px 30px white,
-	-50px 40px white,
-	-20px 100px white,
-	-60px -20px white,
-	-120px -20px white,
-	60px 120px white,
-	130px 60px white,
-	200px 180px white,
-	280px 120px white,
-	370px 90px white,
-	490px 150px white,
-	610px 80px white,
-	720px 200px white,
-	860px 120px white,
-	20px 50px white,
-	70px 70px white,
-	170px 150px white,
-	270px 800px white,
-	370px 200px white,
-	520px 120px white,
-	670px 30px white,
-	770px 170px white,
-	920px 200px white,
-	970px 150px white,
-	1070px 50px white,
-	1170px 820px white,
-	1270px 200px white,
-	1370px 100px white,
-	1470px 200px white,
-	1570px 150px white,
-	1670px 50px white,
-	1770px 200px white,
-	220px 500px white,
-	320px 450px white,
-	420px 850px white,
-	520px 300px white,
-	620px 400px white,
-	720px 200px white,
-	820px 500px white,
-	920px 100px white,
-	1070px 300px white,
-	1220px 200px white,
-	1420px 150px white,
-	1520px 800px white,
-	1620px 350px white;
-}
-
-@keyframes anim-stars {
-	from {
-		transform: translateY(0px);
 	}
-
-	to {
-		transform: translateY(-650px);
+	
+	@keyframes anim-stars {
+		from {
+			transform: translateY(0px);
+		}
+	
+		to {
+			transform: translateY(-650px);
+		}
 	}
-}
 
 /*typing animation*/
 
